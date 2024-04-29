@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+librosa = "*"
+pandas = "*"
+soundfile = "*"
+torchaudio = "*"
+torch = "*"
+torchvision = "*"
+numpy = "*"
+matplotlib = "*"
+ipykernel = "*"
+plotly = "*"
+nbformat = "*"
+timm = "*"
+scikit-learn = "*"
+
+[dev-packages]
+ipykernel = "*"
