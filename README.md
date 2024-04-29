@@ -86,15 +86,6 @@ Furthermore, we used the 'stratify' parameter to ensure a balanced class distrib
 
 ### 2. Model
 
-Nous avons fait le choix de ne pas partir from scratch, mais plutot de partir sur du Transfer Learning avec un modèle pré-entrainé. Nous avons donc utilisé le modèle [EfficientNet](https://huggingface.co/docs/timm/models/efficientnet) qui est un modèle très performant pour la classification d'images et déjà entrainé sur ImageNet. Nous avons utilisé la version b3 du modèle.
-
-Le framework Pytorch est utilisé pour entrainer le modèle. Le temps d'entrainement étant très long (~1h par époque), nous avons limité l'entrainement à 8 époques.
-
-Par manque de temps, nous n'avons pas pu faire de recherche d'hyperparamètres. Nous avons donc utilisé les paramètres par défaut du modèle. De plus nous n'avons pas ajouté de couches significatives au modèle, nous avons juste ajouté une couche de classification à la fin du modèle.
-
-
-english :
-
 We chose not to start from scratch, but rather to use Transfer Learning with a pre-trained model. We therefore used the [EfficientNet](https://huggingface.co/docs/timm/models/efficientnet) model which is a very performant for image classification and already trained on ImageNet database. We used the b3 version of the model.
 
 The Pytorch framework is used to train the model. The training time being very long (~1h per epoch), we limited the training to 8 epochs.
