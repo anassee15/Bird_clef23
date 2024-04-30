@@ -1,12 +1,5 @@
 # Bird clef 2023
 
-## Group
-
-- Crevoiserat David
-- El boudiri Anasse
-
-## Project Description
-
 Kaggle competitions [here](https://www.kaggle.com/competitions/birdclef-2023/overview) which consists in creating a bird classification model from audio recordings. The dataset used is the [BirdCLEF 2023](https://www.kaggle.com/competitions/birdclef-2023/data).
 
 ## Project Structure
